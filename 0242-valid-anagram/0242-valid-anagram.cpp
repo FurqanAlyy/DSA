@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        // Optimal Method using Hash Maps
+        // Method using Hash Maps
         if(s.size() != t.size()){
             return false;
         }
